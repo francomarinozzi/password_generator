@@ -22,7 +22,7 @@ def create_psw(psw_len):
 
 
 def create_psw_txt():
-    """generate a .txt in the src folder an write a password into it
+    """create a .txt in the src folder and write a password into it
     """
     doc = open("password.txt", "w")
     doc.write(create_psw(10))
